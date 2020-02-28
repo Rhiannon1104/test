@@ -13,6 +13,7 @@ void search(vector<int> nums, int start) {
         if (i > 0 && nums[i] == nums[i - 1] && nums[i] != path[path.size() - 1]) {
             continue;//
         }
+        cout<<"Github<<endl;
         path.push_back(nums[i]);
         res.push_back(path);
         search(nums, i + 1);
